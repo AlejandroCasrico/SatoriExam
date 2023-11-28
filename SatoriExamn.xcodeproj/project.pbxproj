@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61BC2232B1619A800549B39 /* SatoriExamnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */; };
+		A61BC2252B1619A800549B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC2242B1619A800549B39 /* ContentView.swift */; };
+		A61BC2272B1619A900549B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61BC2262B1619A900549B39 /* Assets.xcassets */; };
+		A61BC22A2B1619A900549B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61BC2292B1619A900549B39 /* Preview Assets.xcassets */; };
+		A61BC2342B1619A900549B39 /* SatoriExamnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC2332B1619A900549B39 /* SatoriExamnTests.swift */; };
+		A61BC23E2B1619A900549B39 /* SatoriExamnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC23D2B1619A900549B39 /* SatoriExamnUITests.swift */; };
+		A61BC2402B1619A900549B39 /* SatoriExamnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC23F2B1619A900549B39 /* SatoriExamnUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A61BC2302B1619A900549B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61BC2172B1619A800549B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61BC21E2B1619A800549B39;
+			remoteInfo = SatoriExamn;
+		};
+		A61BC23A2B1619A900549B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61BC2172B1619A800549B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61BC21E2B1619A800549B39;
+			remoteInfo = SatoriExamn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A61BC21F2B1619A800549B39 /* SatoriExamn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatoriExamn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriExamnApp.swift; sourceTree = "<group>"; };
+		A61BC2242B1619A800549B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A61BC2262B1619A900549B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61BC2292B1619A900549B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A61BC22F2B1619A900549B39 /* SatoriExamnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatoriExamnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61BC2332B1619A900549B39 /* SatoriExamnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriExamnTests.swift; sourceTree = "<group>"; };
+		A61BC2392B1619A900549B39 /* SatoriExamnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatoriExamnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61BC23D2B1619A900549B39 /* SatoriExamnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriExamnUITests.swift; sourceTree = "<group>"; };
+		A61BC23F2B1619A900549B39 /* SatoriExamnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriExamnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61BC21C2B1619A800549B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61BC22C2B1619A900549B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61BC2362B1619A900549B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61BC2162B1619A800549B39 = {
+			isa = PBXGroup;
+			children = (
+				A61BC2212B1619A800549B39 /* SatoriExamn */,
+				A61BC2322B1619A900549B39 /* SatoriExamnTests */,
+				A61BC23C2B1619A900549B39 /* SatoriExamnUITests */,
+				A61BC2202B1619A800549B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61BC2202B1619A800549B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61BC21F2B1619A800549B39 /* SatoriExamn.app */,
+				A61BC22F2B1619A900549B39 /* SatoriExamnTests.xctest */,
+				A61BC2392B1619A900549B39 /* SatoriExamnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61BC2212B1619A800549B39 /* SatoriExamn */ = {
+			isa = PBXGroup;
+			children = (
+				A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */,
+				A61BC2242B1619A800549B39 /* ContentView.swift */,
+				A61BC2262B1619A900549B39 /* Assets.xcassets */,
+				A61BC2282B1619A900549B39 /* Preview Content */,
+			);
+			path = SatoriExamn;
+			sourceTree = "<group>";
+		};
+		A61BC2282B1619A900549B39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A61BC2292B1619A900549B39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A61BC2322B1619A900549B39 /* SatoriExamnTests */ = {
+			isa = PBXGroup;
+			children = (
+				A61BC2332B1619A900549B39 /* SatoriExamnTests.swift */,
+			);
+			path = SatoriExamnTests;
+			sourceTree = "<group>";
+		};
+		A61BC23C2B1619A900549B39 /* SatoriExamnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A61BC23D2B1619A900549B39 /* SatoriExamnUITests.swift */,
+				A61BC23F2B1619A900549B39 /* SatoriExamnUITestsLaunchTests.swift */,
+			);
+			path = SatoriExamnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61BC21E2B1619A800549B39 /* SatoriExamn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61BC2432B1619A900549B39 /* Build configuration list for PBXNativeTarget "SatoriExamn" */;
+			buildPhases = (
+				A61BC21B2B1619A800549B39 /* Sources */,
+				A61BC21C2B1619A800549B39 /* Frameworks */,
+				A61BC21D2B1619A800549B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatoriExamn;
+			productName = SatoriExamn;
+			productReference = A61BC21F2B1619A800549B39 /* SatoriExamn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A61BC22E2B1619A900549B39 /* SatoriExamnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61BC2462B1619A900549B39 /* Build configuration list for PBXNativeTarget "SatoriExamnTests" */;
+			buildPhases = (
+				A61BC22B2B1619A900549B39 /* Sources */,
+				A61BC22C2B1619A900549B39 /* Frameworks */,
+				A61BC22D2B1619A900549B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61BC2312B1619A900549B39 /* PBXTargetDependency */,
+			);
+			name = SatoriExamnTests;
+			productName = SatoriExamnTests;
+			productReference = A61BC22F2B1619A900549B39 /* SatoriExamnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A61BC2382B1619A900549B39 /* SatoriExamnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61BC2492B1619A900549B39 /* Build configuration list for PBXNativeTarget "SatoriExamnUITests" */;
+			buildPhases = (
+				A61BC2352B1619A900549B39 /* Sources */,
+				A61BC2362B1619A900549B39 /* Frameworks */,
+				A61BC2372B1619A900549B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61BC23B2B1619A900549B39 /* PBXTargetDependency */,
+			);
+			name = SatoriExamnUITests;
+			productName = SatoriExamnUITests;
+			productReference = A61BC2392B1619A900549B39 /* SatoriExamnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61BC2172B1619A800549B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A61BC21E2B1619A800549B39 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A61BC22E2B1619A900549B39 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A61BC21E2B1619A800549B39;
+					};
+					A61BC2382B1619A900549B39 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A61BC21E2B1619A800549B39;
+					};
+				};
+			};
+			buildConfigurationList = A61BC21A2B1619A800549B39 /* Build configuration list for PBXProject "SatoriExamn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A61BC2162B1619A800549B39;
+			productRefGroup = A61BC2202B1619A800549B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61BC21E2B1619A800549B39 /* SatoriExamn */,
+				A61BC22E2B1619A900549B39 /* SatoriExamnTests */,
+				A61BC2382B1619A900549B39 /* SatoriExamnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61BC21D2B1619A800549B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61BC22A2B1619A900549B39 /* Preview Assets.xcassets in Resources */,
+				A61BC2272B1619A900549B39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61BC22D2B1619A900549B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61BC2372B1619A900549B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61BC21B2B1619A800549B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61BC2252B1619A800549B39 /* ContentView.swift in Sources */,
+				A61BC2232B1619A800549B39 /* SatoriExamnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61BC22B2B1619A900549B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61BC2342B1619A900549B39 /* SatoriExamnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61BC2352B1619A900549B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61BC2402B1619A900549B39 /* SatoriExamnUITestsLaunchTests.swift in Sources */,
+				A61BC23E2B1619A900549B39 /* SatoriExamnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A61BC2312B1619A900549B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61BC21E2B1619A800549B39 /* SatoriExamn */;
+			targetProxy = A61BC2302B1619A900549B39 /* PBXContainerItemProxy */;
+		};
+		A61BC23B2B1619A900549B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61BC21E2B1619A800549B39 /* SatoriExamn */;
+			targetProxy = A61BC23A2B1619A900549B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A61BC2412B1619A900549B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A61BC2422B1619A900549B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61BC2442B1619A900549B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SatoriExamn/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PXM2L59GZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myorganization.SatoriExamn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61BC2452B1619A900549B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SatoriExamn/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PXM2L59GZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myorganization.SatoriExamn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A61BC2472B1619A900549B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXM2L59GZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myorganization.SatoriExamnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatoriExamn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SatoriExamn";
+			};
+			name = Debug;
+		};
+		A61BC2482B1619A900549B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXM2L59GZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myorganization.SatoriExamnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatoriExamn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SatoriExamn";
+			};
+			name = Release;
+		};
+		A61BC24A2B1619A900549B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXM2L59GZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myorganization.SatoriExamnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SatoriExamn;
+			};
+			name = Debug;
+		};
+		A61BC24B2B1619A900549B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXM2L59GZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myorganization.SatoriExamnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SatoriExamn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61BC21A2B1619A800549B39 /* Build configuration list for PBXProject "SatoriExamn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61BC2412B1619A900549B39 /* Debug */,
+				A61BC2422B1619A900549B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61BC2432B1619A900549B39 /* Build configuration list for PBXNativeTarget "SatoriExamn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61BC2442B1619A900549B39 /* Debug */,
+				A61BC2452B1619A900549B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61BC2462B1619A900549B39 /* Build configuration list for PBXNativeTarget "SatoriExamnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61BC2472B1619A900549B39 /* Debug */,
+				A61BC2482B1619A900549B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61BC2492B1619A900549B39 /* Build configuration list for PBXNativeTarget "SatoriExamnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61BC24A2B1619A900549B39 /* Debug */,
+				A61BC24B2B1619A900549B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61BC2172B1619A800549B39 /* Project object */;
+}
