@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60A518F2B16AC2500F52DA4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60A518E2B16AC2500F52DA4 /* Pokemon.swift */; };
+		A60A51992B16DCA100F52DA4 /* pokemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60A51982B16DCA100F52DA4 /* pokemonManager.swift */; };
 		A61BC2232B1619A800549B39 /* SatoriExamnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */; };
 		A61BC2252B1619A800549B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BC2242B1619A800549B39 /* ContentView.swift */; };
 		A61BC2272B1619A900549B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61BC2262B1619A900549B39 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A60A518E2B16AC2500F52DA4 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		A60A51982B16DCA100F52DA4 /* pokemonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonManager.swift; sourceTree = "<group>"; };
 		A61BC21F2B1619A800549B39 /* SatoriExamn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatoriExamn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriExamnApp.swift; sourceTree = "<group>"; };
 		A61BC2242B1619A800549B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +98,11 @@
 		A61BC2212B1619A800549B39 /* SatoriExamn */ = {
 			isa = PBXGroup;
 			children = (
-				A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */,
-				A61BC2242B1619A800549B39 /* ContentView.swift */,
+				A61BC24C2B16395600549B39 /* Views */,
 				A61BC2262B1619A900549B39 /* Assets.xcassets */,
 				A61BC2282B1619A900549B39 /* Preview Content */,
+				A60A518E2B16AC2500F52DA4 /* Pokemon.swift */,
+				A60A51982B16DCA100F52DA4 /* pokemonManager.swift */,
 			);
 			path = SatoriExamn;
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 				A61BC23F2B1619A900549B39 /* SatoriExamnUITestsLaunchTests.swift */,
 			);
 			path = SatoriExamnUITests;
+			sourceTree = "<group>";
+		};
+		A61BC24C2B16395600549B39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A61BC2242B1619A800549B39 /* ContentView.swift */,
+				A61BC2222B1619A800549B39 /* SatoriExamnApp.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			files = (
 				A61BC2252B1619A800549B39 /* ContentView.swift in Sources */,
 				A61BC2232B1619A800549B39 /* SatoriExamnApp.swift in Sources */,
+				A60A518F2B16AC2500F52DA4 /* Pokemon.swift in Sources */,
+				A60A51992B16DCA100F52DA4 /* pokemonManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
